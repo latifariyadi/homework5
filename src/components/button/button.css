@@ -1,0 +1,9 @@
+button {
+  background-color: goldenrod;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 16px;
+}
