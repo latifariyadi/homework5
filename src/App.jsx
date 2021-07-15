@@ -12,7 +12,7 @@ function App() {
       <Heading heading="Create Playlist" />
       <Image img={data.album.images[0].url} />
       <Title title={data.name} />
-      <Artist artist="Queen" />
+      <Artist artist={data.artists[0].name} />
       <Button select="Select" />
     </div>
   );
